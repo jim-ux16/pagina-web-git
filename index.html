@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  </head>
+  <body class="bg-gray-950">
+    
+    <section id="welcome-section" class="h-screen flex justify-center items-center relative overflow-hidden bg-[url(/images/wallpaper-stars.jpg)] bg-cover bg-center bg-blend-darken bg-fixed">
+
+      <div class="max-w-[900px] bg-gray-900/80 rounded-lg p-8 shadow-lg border border-gray-600 backdrop-blur-sm flex flex-col justify-between items-center">
+        <h1 class="bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-7xl font-extrabold text-transparent text-center">Jimmy<br>Jimenez</h1>
+        <p class="text-white my-3"> Desarrollador web Full Stack</p>
+        <div class="flex gap-4 items-center">
+          <a class="text-white bg-gradient-to-r from-blue-500 to-violet-500 font-semibold text-xl p-4 rounded-lg hover:scale-105 hover:shadow-lg hover:shadow-violet-500/50 transition-all ease-in-out duration-500" href="">Contactar</a>
+          <a href="">
+            <i class="pi pi-github text-3xl text-gray-500 hover:text-white hover:scale-105 transition-all ease-in-out duration-500"></i>
+          </a>
+          <a href="">
+            <i class="pi pi-linkedin text-3xl text-gray-500 hover:text-white hover:scale-105 transition-all ease-in-out duration-500"></i>
+          </a>
+          <a href="">
+            <i class="pi pi-envelope text-3xl text-gray-500 hover:text-white hover:scale-105 transition-all ease-in-out duration-500"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-me" class="py-24 relative overflow-hidden">
+      <div class="absolute rounded-full blur-[100px] -z-10 gradient-circle w-[500px] h-[500px] bg-purple-600/20 -top-48 -left-24"></div>
+      <div class="absolute rounded-full blur-[100px] -z-10 gradient-circle w-[500px] h-[500px] bg-blue-600/20 -bottom-48 -right-24"></div>
+
+      <div class=" container bg-gray-900/30 backdrop-blur-md mx-auto rounded-lg p-8 shadow-lg border border-gray-700 ">
+        <h2 class="text-blue-400 font-bold mb-8 text-4xl">Sobre mí</h2>
+
+        <div class="grid grid-cols-2  gap-20">
+          <div>
+            <p class="text-gray-100 text-lg text-justify">Con más de 5 años de experiencia en desarrollo web, me especializo en crear soluciones digitales que combinan rendimiento técnico con diseño intuitivo.</p>
+            <ul class="flex gap-3 mt-5">
+              <li class="rounded-lg bg-gray-900 p-2 border border-gray-600 text-gray-200 shadow">Angular</li>
+              <li class="rounded-lg bg-gray-900 p-2 border border-gray-600 text-gray-200 shadow">Nest JS</li>
+              <li class="rounded-lg bg-gray-900 p-2 border border-gray-600 text-gray-200 shadow">Mysql</li>
+              <li class="rounded-lg bg-gray-900 p-2 border border-gray-600 text-gray-200 shadow">Java</li>
+            </ul>
+          </div>
+
+          <ul class="flex flex-col gap-5">
+            <li class="flex gap-3">
+              <i class="pi pi-briefcase text-violet-500 text-2xl"></i>
+              <div class="">
+                <h3 class="text-xl font-semibold text-white">Senior Developer @ TechCorp</h3>
+                <span class="text-gray-300 mt-2">2020 - presente</span>
+              </div>
+            </li>
+
+            <li class="flex gap-3">
+              <i class="pi pi-briefcase text-violet-500 text-2xl"></i>
+              <div class="">
+                <h3 class="text-xl font-semibold text-white">Full Stack Developer @ StartupX</h3>
+                <span class="text-gray-300 mt-2">2018 - 2020</span>
+              </div>
+            </li>
+
+            <li class="flex gap-3">
+              <i class="pi pi-briefcase text-violet-500 text-2xl"></i>
+              <div class="">
+                <h3 class="text-xl font-semibold text-white">Ingeniería en Computación</h3>
+                <span class="text-gray-300 mt-2">Universidad Tecnológica</span>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="projects py-24 bg-gradient-to-b from-gray-950 via-gray-800 to-gray-900">
+      <div class="container mx-auto">
+        <h2 class="text-blue-400 font-bold mb-8 text-4xl">Proyectos destacados</h2>
+
+        <ul class="grid grid-cols-1 gap-y-8">
+          <li>
+            <article class=" container bg-gray-900/30 backdrop-blur-md mx-auto rounded-lg p-8 shadow-lg border border-gray-700 hover:shadow-blue-500/50 transition-all ease-in-out duration-500 relative">
+
+              <div class="absolute top-8 right-8 flex gap-3 text-xl text-gray-500 ">
+                <a href="">
+                  <i class="pi pi-github hover:text-white transition-all ease-in-out duration-500"></i>
+                </a>
+                <a href="">
+                  <i class="pi pi-external-link hover:text-white transition-all ease-in-out duration-500"></i>
+                </a>
+              </div>
+
+              <header class="flex gap-3 items-center">
+                <i class="pi pi-code text-violet-500 text-2xl"></i>
+                <h3 class="text-white font-semibold text-xl">Proyecto 1</h3>
+              </header>
+              <p class="text-gray-400 mt-5 font-light">Una descripción del proyecto breve pero impactante y las tecnologías usadas</p>
+              <ul class="flex gap-3 mt-5"> 
+                <li class="rounded-lg bg-gray-900 p-2 border border-gray-600 text-gray-200 shadow">Angular</li>
+                <li class="rounded-lg bg-gray-900 p-2 border border-gray-600 text-gray-200 shadow">Nest JS</li>
+                <li class="rounded-lg bg-gray-900 p-2 border border-gray-600 text-gray-200 shadow">Mysql</li>
+                <li class="rounded-lg bg-gray-900 p-2 border border-gray-600 text-gray-200 shadow">Java</li>
+              </ul>
+            </article>
+          </li>
+          <li>
+            <article class=" container bg-gray-900/30 backdrop-blur-md mx-auto rounded-lg p-8 shadow-lg border border-gray-700 hover:shadow-blue-500/50 transition-all ease-in-out duration-500 relative">
+
+              <div class="absolute top-8 right-8 flex gap-3 text-xl text-gray-500 ">
+                <a href="">
+                  <i class="pi pi-github hover:text-white transition-all ease-in-out duration-500"></i>
+                </a>
+                <a href="">
+                  <i class="pi pi-external-link hover:text-white transition-all ease-in-out duration-500"></i>
+                </a>
+              </div>
+
+              <header class="flex gap-3 items-center">
+                <i class="pi pi-code text-violet-500 text-2xl"></i>
+                <h3 class="text-white font-semibold text-xl">Proyecto 1</h3>
+              </header>
+              <p class="text-gray-400 mt-5 font-light">Una descripción del proyecto breve pero impactante y las tecnologías usadas</p>
+              <ul class="flex gap-3 mt-5"> 
+                <li class="rounded-lg bg-gray-900 p-2 border border-gray-600 text-gray-200 shadow">Angular</li>
+                <li class="rounded-lg bg-gray-900 p-2 border border-gray-600 text-gray-200 shadow">Nest JS</li>
+                <li class="rounded-lg bg-gray-900 p-2 border border-gray-600 text-gray-200 shadow">Mysql</li>
+                <li class="rounded-lg bg-gray-900 p-2 border border-gray-600 text-gray-200 shadow">Java</li>
+              </ul>
+            </article>
+          </li>
+          <li>
+            <article class=" container bg-gray-900/30 backdrop-blur-md mx-auto rounded-lg p-8 shadow-lg border border-gray-700 hover:shadow-blue-500/50 transition-all ease-in-out duration-500 relative">
+
+              <div class="absolute top-8 right-8 flex gap-3 text-xl text-gray-500 ">
+                <a href="">
+                  <i class="pi pi-github hover:text-white transition-all ease-in-out duration-500"></i>
+                </a>
+                <a href="">
+                  <i class="pi pi-external-link hover:text-white transition-all ease-in-out duration-500"></i>
+                </a>
+              </div>
+
+              <header class="flex gap-3 items-center">
+                <i class="pi pi-code text-violet-500 text-2xl"></i>
+                <h3 class="text-white font-semibold text-xl">Proyecto 1</h3>
+              </header>
+              <p class="text-gray-400 mt-5 font-light">Una descripción del proyecto breve pero impactante y las tecnologías usadas</p>
+              <ul class="flex gap-3 mt-5"> 
+                <li class="rounded-lg bg-gray-900 p-2 border border-gray-600 text-gray-200 shadow">Angular</li>
+                <li class="rounded-lg bg-gray-900 p-2 border border-gray-600 text-gray-200 shadow">Nest JS</li>
+                <li class="rounded-lg bg-gray-900 p-2 border border-gray-600 text-gray-200 shadow">Mysql</li>
+                <li class="rounded-lg bg-gray-900 p-2 border border-gray-600 text-gray-200 shadow">Java</li>
+              </ul>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
